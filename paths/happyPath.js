@@ -1,9 +1,3 @@
-//const scenario = "End-to-end happy path Scenario";
-
-//const executorsContent = require(â€˜app/resources/en/translation/executors/otherexecutors.jsonâ€™);
-//const TestConfigurator = new (require('test/end-to-end/helpers/TestConfigurator'))(scenario);
-
-
 
 Feature('Judicial UI E2E Tests');
 
