@@ -20,11 +20,21 @@ exports.config = {
 
     'mocha': {
         'reporterOptions': {
-            'reportDir': process.env.E2E_OUTPUT_DIR || './output',
-            'reportName' : 'index',
-            'inlineAssets': true
+            'codeceptjs-cli-reporter': {
+                'stdout': '-',
+                'options': {
+                    'steps': true
+                }
+            },
+            'mochawesome': {
+                'stdout': './output/console.log',
+                'options': {
+                    'reportDir': process.env.E2E_OUTPUT_DIR || './output',
+                    'reportName': 'index',
+                    'inlineAssets': true
+                }
+            }
         }
     },
-
     'name': 'Codecept Tests'
 };
