@@ -3,6 +3,7 @@
 exports.config = {
     'tests': './paths/*.js',
     'output': './output',
+    "timeout": 10000,
 
     "helpers": {
         "Protractor" : {
@@ -17,6 +18,7 @@ exports.config = {
     'include': {
         'I': './pages/steps.js'
     },
+
     "bootstrap": false,
 
     'mocha': {
@@ -27,6 +29,7 @@ exports.config = {
                     'steps': true
                 }
             },
+
             'mochawesome': {
                 'stdout': './output/console.log',
                 'options': {
@@ -37,5 +40,6 @@ exports.config = {
             }
         }
     },
+
     'name': 'Codecept Tests'
 };
