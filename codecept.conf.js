@@ -10,6 +10,7 @@ exports.config = {
             "browser": "chrome",
             "smartWait": 5000,
             "restart": false
+
         }
     },
 
