@@ -4,6 +4,7 @@ module.exports = function () {
     const I = this;
 
 
+    I.wait(2);
     I.fillField("#username", "testccd@gmail.com");
     I.fillField("#password", 'Monda567');
     I.click('Sign in');
