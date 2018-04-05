@@ -7,7 +7,7 @@ module.exports = function () {
 
     return actor({
 
-        //signinand sign out
+        //signin
         signin: steps.signin.signIn,
 
         // invalid signin
