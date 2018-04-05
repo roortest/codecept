@@ -33,7 +33,7 @@ exports.config = {
             'mochawesome': {
                 'stdout': './output/console.log',
                 'options': {
-                    'reportDir': process.env.E2E_OUTPUT_DIR || './output',
+                    'reportDir': './output',
                     'reportName': 'index',
                     'inlineAssets': true
                 }

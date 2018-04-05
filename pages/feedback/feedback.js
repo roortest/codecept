@@ -11,7 +11,7 @@ module.exports = function () {
     I.click('input#o540869344974458');
     I.fillField('#t44943949', 'test');
     I.click('input#cmdGo');
-    I.wait(10);
+    I.wait(2);
     I.see('Thank you for your feedback', 'h2');
 
 

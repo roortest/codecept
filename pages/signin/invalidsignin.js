@@ -10,5 +10,8 @@ module.exports = function () {
     I.seeElement('.error-summary');
     I.see('Incorrect email/password combination', 'h3#failure-error-summary-heading');
     I.see('Please check your email address and password and try again:', '.error-summary > p');
-    I.dontSee('Sign Out');
+    I.dontSeeElement('button.dropbtn');
+    I.dontSee('Case List');
+
+
 };
